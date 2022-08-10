@@ -1,0 +1,28 @@
+{
+  "name": "news-clipper",
+  "version": "1.0.0",
+  "description": "Clips the news from the major techlology sistes, at one click.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifsantos/news-clipper.git"
+  },
+  "keywords": [
+    "news"
+  ],
+  "author": "Ismael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifsantos/news-clipper/issues"
+  },
+  "homepage": "https://github.com/ifsantos/news-clipper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1"
+  }
+}
