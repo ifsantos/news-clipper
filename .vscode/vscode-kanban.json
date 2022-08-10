@@ -1,0 +1,43 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Ismael"
+      },
+      "category": "Feature",
+      "creation_time": "2022-08-09T01:09:36.625Z",
+      "description": {
+        "content": "- For each site, develop the search pattern to find the links of the latest news\n- Improve the list of sites initially clipped\n",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Collect the news links on site's initial page",
+      "details": {
+        "content": "- For each site, develop the search pattern to find the links of the latest news\n- Improve the list of sites initially clipped\n- Sites in initial clipping list:\n    - https://dzone.com\n    - https://devclass.com\n    - https://github.blog\n    - https://stackoverflow.blog/\n    - https://blog.devgenius.io/\n    - https://www.quantamagazine.org\n    - https://towardsdatascience.com\n    - https://thenewstack.io\n    - https://dev.to/\n    - https://dev.to/code_jedi\n    - https://www.howtogeek.com",
+        "mime": "text/markdown"
+      }
+    },
+    {
+      "assignedTo": {
+        "name": "Ismael"
+      },
+      "category": "Feature",
+      "creation_time": "2022-08-09T01:13:11.129Z",
+      "description": {
+        "content": "- From each link, extract theese information to feed the clipper\n    - get image\n    - get title\n    - get last update time",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "- From each link, extract theese information to feed the clipper\n    - get image by:\n        - \\<meta property=\"og:image\" content=\"https://github.blog/wp-content/uploads/2022/06/git-2.37.png\">\n        - \\<meta data-rh=\"true\" property=\"og:image\" content=\"https://miro.medium.com/max/960/0*6k5eURomcpoZ_76M.png\">\n    - get Title by:\n        - \\<meta data-rh=\"true\" property=\"og:title\" content=\"Kubeflow MLOps&nbsp;: Automatic pipeline deployment with CI / CD / CT\">\n        - \\<meta property=\"og:title\" content=\"Highlights from Git 2.37 | The GitHub Blog\">\n    - get Modificantion time by:\n        - \\<meta property=\"article:modified_time\" content=\"2022-06-29T19:24:56+00:00\">\n\n",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Feed the clipper with information got from each page"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "done": []
+}
